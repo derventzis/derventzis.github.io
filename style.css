@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #6a5dfe;
+}
+
+button {
+  background-color: #6a5dfe;
+  border: none;
+  color: white;
+  padding: 9px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+}
+
+button:hover {
+    background-color: #6a5dfe;
+    box-shadow: 0 9px 25px 0 rgba(0,0,0,0.24),0 9px 25px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+}
+
+
+h3, h4, h6, p {
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #6a5dfe;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #f8b45c;
+    background-color: transparent;
+    text-decoration: none;
+}
+h5 {
+    font-family: "Montserrat", sans-serif;
+    color: #f8b45c;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%;
+    background-color: #24252A;
+    padding: 70px;
+  }
+  
+  /* Main column */
+  .main {
+    flex:70%;
+    background-color: #24252A;
+    padding: 70px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: transparent;
+    padding: 30px 10%;
+    text-align: center;
+    border-radius: 30px;
+  }
+
+  .footer_images {
+    background: transparent;
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column-reverse;
+    }
+  }
+
+.photo {
+    width: 300px;
+    height: 392px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 392px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 300px;
+  height: 392px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background: #6a5dfe;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #594ed5; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #453ca0; 
+}
+
+/* SKILLS */
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  border: none;
+}
+
+.skills {
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 75%; background-color: #f16529;}
+.css {width: 60%; background-color: #2965f1;}
+.c {width: 30%; background-color: #283395;}
+.java {width: 25%; background-color: #5281a0;}
+.js {width: 50%; background-color: #d7c11b;}
+
+image {
+    position: absolute;
+    z-index: -1;
+}
