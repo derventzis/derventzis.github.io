@@ -273,10 +273,3 @@ image {
 .col-md {
   flex: 1 0 0%;
 }
-
-.c1 > h3{
-    font-family: "Montserrat", sans-serif;
-    color: #6a5dfe;
-    background-color: transparent;
-    text-decoration: none;
-}
