@@ -7,7 +7,7 @@
     background-color: #24252A;
 }
 
-li, a, button {
+i, li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -236,4 +236,47 @@ h5 {
 image {
     position: absolute;
     z-index: -1;
+}
+
+.a1 > body {
+  display: grid;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  height: 100vh;
+  place-items: center;
+}
+
+.a1 > a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.img1 {
+    float: right;
+}
+
+.row2 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.p-3 {
+  padding: 1rem!important;
+}
+
+.col-md {
+  flex: 1 0 0%;
+}
+
+.c1 > h3{
+    font-family: "Montserrat", sans-serif;
+    color: #6a5dfe;
+    background-color: transparent;
+    text-decoration: none;
 }
