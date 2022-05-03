@@ -252,6 +252,11 @@ image {
   text-decoration: none;
 }
 
+.a1:hover{
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 1);
+}
+
 .img1 {
     float: right;
 }
