@@ -252,7 +252,7 @@ image {
   text-decoration: none;
 }
 
-.a1:hover{
+.a1 a:hover{
   transition: 0.2s;
   color: rgba(255, 255, 255, 1);
 }
