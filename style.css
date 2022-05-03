@@ -273,3 +273,11 @@ image {
 .col-md {
   flex: 1 0 0%;
 }
+
+.bx {
+  color:#6a5dfe;
+}
+.bx i:hover {
+ transition: 0.2s;
+ color: #594ed5;
+}
