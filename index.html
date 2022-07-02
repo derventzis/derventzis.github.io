@@ -1,119 +1,118 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Johnny D. - Portfolio</title>
-    <meta name="description" content="">
-    <link rel="shortcut icon" href="logo3.png" type="image/x-icon">  
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
     <link rel="stylesheet" href="style.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="logo.png">
+    <title>Johnny D. - Portfolio</title> 
 </head>
 <body>
-  <header id="Top"> 
-    <a href="#Top"><img class="logo" src="logo3.png" alt="logo"></a>
-        <nav>
-            <ul class="nav__links">
-                <li><a href="#About">About Me</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#FindMe">Find Me</a></li>
-            </ul>
-        </nav>  
-        <a class="cta" href="mailto:derventzisyannis@gmail.com"><button>Contact</button></a>
-    </header>
-    <!-- The flexible grid (content) -->
-<div class="row">
-    <div class="main">
-      <h1 id="Work">WORK</h1>
-        <br>
-        <div class="row2" style="margin-top: 10vh;">
-          <div class="col-md p-3">
-              <img src="Syzle-Logo-Full.png" width="200px" height="200px">
-          </div>
-          <div class="col-md p-3">
-              <h3>• Syzle • </h3>
-              <h3><small>Nov 2021 - Present</small></h3>
-              <h4>Front-End Developer <small>- <i>HTML 5, CSS 3, JavaScript</i></small></h4>
-              <br>
-              <p>
-                  Syzle is an upcoming music social media app.
-                  Details about it will currently not be shared.
-              </p>
-          </div>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <p> <span class="name_style"> JD</span></p>
+
+                <div class="text logo-text">
+                    <span class="name">Johnny D.</span>
+                    <span class="profession">Web Developer</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#C4">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+
+                <li class="nav-link">
+                    <a href="mailto:derventzis.cs@gmail.com">
+                        <i class='bx bxl-gmail icon' ></i>
+                        <span class="text nav-text">Gmail</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="https://discord.gg/4kZevrvjBK">
+                        <i class='bx bxl-discord-alt icon' data-toggle="tooltip" data-placement="top" title="Johnny D.#0719" ></i>
+                        <span class="text nav-text">Discord</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="https://github.com/JohnnyD3r">
+                        <i class='bx bxl-github icon'></i>
+                        <span class="text nav-text">GitHub</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
         </div>
-        <div class="row2" style="margin-top: 10vh;">
-          <div class="col-md p-3">
-              <a href="https://jdphot0graphy.github.io/index.html"><img src="logophotog.png" width="200px" height="200px"></a>
-          </div>
-          <div class="col-md p-3">
-              <h3>• JD. Photography • </h3>
-              <h4>Front-End Developer <small>- <i>HTML 5, CSS 3, JavaScript</i></small></h4>
-              <br>
-              <p>
-                This website is about my hobby as an amateur photographer. <br>
-                Nature - landscapes and animals -, the streets and houses I capture through my camera lens have been uploaded to this site!<br>
-                Hope you like it!
-              </p>
-          </div>
-        </div>
-        <br> 
-        <h1 id="Skills">SKILLS</h1>
-        <br>
-        <p><i class='bx bxl-html5 bx-sm' style="color: whitesmoke;" ></i>HTML</p>       
-        <div class="container">
-          <div class="skills html">70%</div>
+
+    </nav>
+
+    <section class="home">
+        <div class="text">
+            
+            <h3 id="C4">
+                <p style="text-align: center">Hey! I'm           
+                <a class="home-name">Yannis Derventzis</a>
+                !
+                </p> 
+            </h3>   
+                   
         </div>
         
-        <p><i class='bx bxl-css3 bx-sm' style="color: whitesmoke;" ></i>CSS</p>
         <div class="container">
-          <div class="skills css">60%</div>
-        </div>
-        
-        <p><i class='bx bxl-javascript bx-sm' style="color: whitesmoke;"></i>JavaScript</p>
-        <div class="container">
-          <div class="skills js">50%</div>
-        </div> 
+                
+            
+		</div>
+
+    <div class="text1">
+        <footer>© 2022 Johnny D. All rights reserved.</footer>
     </div>
-    <div class="side">
-      <h1 id="About">About Me</h1>
-      <h5>TAKE A LOOK,</h5>
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="photo2.jpg" alt="Avatar" style="width:300px;height:392px;">
-          </div>
-          <div class="flip-card-back">
-            <br><h2>Ioannis-Ion Derventzis</h2> 
-            <br><p>UI/UX Designer</p>
-            <br><p> My name is Ioannis Derventzis. I'm 18 years old
-                    and since 2021 I'm studying Computer Science & Telecommunications
-                    at the University of Thessaly in Lamia, GR.
-                </p>  
-          </div>
-        </div>
-      </div>
-      <br>
-      <p>I am a Front-End Developer and Designer (maybe not...)! 
-      Also, I am tech enthusiast [That's sure :)]. 
-      In 2021 I started my studies in Computer Science and Telecommunications </p> 
-      <br>
-      <a><i class='bx bxs-briefcase bx-sm' style='color:#6a5dfe' ></i>  Front-End Developer</a>
-      <br>
-      <a><i class='bx bxs-home bx-sm' style='color:#6a5dfe' ></i>  Lamia, GR</a>
-    </div>        
-</div>
-  
-  <!-- Footer -->
-  <div class="footer">
-    <h3 id="FindMe">Find Me: </h3>
-    <div class="flex-container">
-      <div class="bx">        <a href=""><i class='bx bxl-discord-alt bx-lg's></i></a>      </div>
-      <div class="bx">        <a href="https://www.instagram.com/yannisd._/"><i class='bx bxl-instagram bx-lg' ></i></a>      </div>
-      <div class="bx">        <a href="https://github.com/JohnnyD3r"><i class='bx bxl-github bx-lg' ></i></a>      </div>  
-    </div>
-    <div class="a1">
-      <a>© 2022 JD. All rights reserved.</a>
-    </div>
-  </div>
+    </section>
+    
+    <script src="script.js"></script>
+
 </body>
+</html>
