@@ -1,6 +1,6 @@
-/* Google Font Import - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/lucida-handwriting-std');
+
 *{
     margin: 0;
     padding: 0;
@@ -349,6 +349,7 @@ body.dark .switch::before{
     height: 100vh;
     width: calc(100% - 78px);
 }
+
 body.dark .home .text{
     color: var(--text-color);
 }
