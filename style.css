@@ -382,39 +382,3 @@ body.dark .home .text{
     background: #453ca0; 
     transition: var(--tran-03);
   }
-
-  .gallery {
-    display: grid;
-    width: 90%;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-}
-
-.gallery__item {
-    cursor: pointer;
-    overflow: hidden;
-    border-radius: 4px;
-}
-
-.gallery__item img {
-    width: 100%;
-    height: 100%;
-    object-fit:contain;
-    transition: 0.3s ease-in-out;
-}
-
-.gallery__item img:hover {
-    transform: scale(1.1);
-}
-
-@media (max-width: 950px) {
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 550px) {
-    .gallery {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
