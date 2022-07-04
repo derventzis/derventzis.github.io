@@ -338,9 +338,10 @@ body.dark .switch::before{
 }
 
 .footer {
-    padding: 20px;
-    text-align: center;
-    background: var(--toggle-color);
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
 }
 
 
