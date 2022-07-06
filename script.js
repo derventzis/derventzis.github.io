@@ -9,17 +9,22 @@ toggle.addEventListener("click" , () =>{
     sidebar.classList.toggle("close");
 })
 
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-  if (localStorage.getItem("dark")) {
+
+function toggleDark() {
+  if (body.classList.contains('dark')) {
+    body.classList.remove('dark');
+    localStorage.setItem("theme", "light");
+    modeText.innerText = "Light Mode";
+  } else {
     body.classList.add('dark');
-    modeText.innerText = "Turn off dark mode";
+    localStorage.setItem("theme", "dark");
+    modeText.innerText = "Dark Mode";
   }
+}
+
+if (localStorage.getItem("theme") === "dark") {
+  body.classList.add('dark');
+  modeText.innerText = "Dark Mode";
+}
+
+body.querySelector('.toggle-switch').addEventListener('click', toggleDark);
