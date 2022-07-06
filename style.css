@@ -7,7 +7,18 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+@font-face {
+  font-family: poppins;
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+}
+@font-face {
+  font-family: lucida-hand;
+  src: url(http://fonts.cdnfonts.com/css/lucida-handwriting-std);
+}
+@font-face {
+  font-family: raleway;
+  src: url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+}
 :root{
     /* ===== Colors ===== */
     --body-color: #E4E9F7;
@@ -33,7 +44,7 @@ body{
 }
 
 .name_style {
-    font-family: 'Lucida Handwriting Regular';
+    font-family: lucida-hand, 'Lucida Handwriting Regular';
     font-size: 40px;
     padding-right: 10px;
     color: var(--logo-text);
@@ -261,7 +272,7 @@ body.dark .mode .sun-moon i.moon{
 
 .container > p {
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 .flex-container {
@@ -398,7 +409,7 @@ body.dark .home .text{
 
 
 figure.workspace {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: raleway, Arial, sans-serif;
   color: #fff;
   position: relative;
   overflow: hidden;
