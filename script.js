@@ -19,3 +19,7 @@ modeSwitch.addEventListener("click" , () =>{
         
     }
 });
+  if (localStorage.getItem("theme") === "dark") {
+    body.classList.add('dark');
+    modeText.innerText = "Turn off dark mode";
+  }
