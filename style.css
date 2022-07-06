@@ -19,6 +19,15 @@
   font-family: raleway;
   src: url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 }
+* {
+    font-family: poppins;
+}
+* {
+    font-family: lucida-hand;
+}
+* {
+    font-family: raleway;
+}
 :root{
     /* ===== Colors ===== */
     --body-color: #E4E9F7;
@@ -487,7 +496,7 @@ figure.workspace h2 {
   transition-delay: 0s;
 }
 figure.workspace h2 span {
-  font-weight: 800;
+  font-weight: bold;
 }
 figure.workspace p {
   display: block;
