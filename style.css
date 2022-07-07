@@ -7,15 +7,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-@font-face {
-  font-family: poppins;
-  src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
-}
 
-@font-face {
-  font-family: raleway;
-  src: url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
-}
 
 :root{
     /* ===== Colors ===== */
@@ -27,7 +19,7 @@
     --text-color: #707070;
     --logo-text: #594ED5;
     --my-color: #594ED5;
-    --text-color2: #0D1116;
+    --text-color2: #3A3B3C;
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -50,8 +42,11 @@ body{
 }
 
 .text-style {
-    font-family: 'Lucida Handwriting Regular';
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
+    font-weight: 600;
+    color: var(--text-color2);
 }
 
 .home-name{
@@ -372,14 +367,6 @@ body.dark .switch::before{
 
 footer {
     display: block;
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 
