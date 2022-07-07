@@ -11,10 +11,7 @@
   font-family: poppins;
   src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
 }
-@font-face {
-  font-family: lucida-hand;
-  src: url(http://fonts.cdnfonts.com/css/lucida-handwriting-std);
-}
+
 @font-face {
   font-family: raleway;
   src: url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
@@ -30,6 +27,7 @@
     --text-color: #707070;
     --logo-text: #594ED5;
     --my-color: #594ED5;
+    --text-color2: #0D1116;
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -51,6 +49,11 @@ body{
     color: var(--logo-text);
 }
 
+.text-style {
+    font-family: 'Lucida Handwriting Regular';
+    font-size: 40px;
+}
+
 .home-name{
     color: var(--my-color);
 }
@@ -61,14 +64,15 @@ body{
 }
 
 body.dark{
-    --body-color: #0d1116;
+    --body-color: #0D1116;
     --sidebar-color: #242526;
-    --primary-color: #3a3b3c;
-    --primary-color-light: #3a3b3c;
-    --toggle-color: #fff;
-    --text-color: #ccc;
-    --logo-text: #ccc;
-    --my-color: #7d75c7;
+    --primary-color: #3A3B3C;
+    --primary-color-light: #3A3B3C;
+    --toggle-color: #FFF;
+    --text-color: #CCC;
+    --logo-text: #CCC;
+    --my-color: #7D75C7;
+    --text-color2:#E4E9F7;
 }
 
 /* ===== Sidebar ===== */

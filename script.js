@@ -14,17 +14,17 @@ function toggleDark() {
   if (body.classList.contains('dark')) {
     body.classList.remove('dark');
     localStorage.setItem("theme", "light");
-    modeText.innerText = "Light Mode";
+    modeText.innerText = "Dark Mode";
   } else {
     body.classList.add('dark');
     localStorage.setItem("theme", "dark");
-    modeText.innerText = "Dark Mode";
+    modeText.innerText = "Light Mode";
   }
 }
 
 if (localStorage.getItem("theme") === "dark") {
   body.classList.add('dark');
-  modeText.innerText = "Dark Mode";
+  modeText.innerText = "Light Mode";
 }
 
 body.querySelector('.toggle-switch').addEventListener('click', toggleDark);
