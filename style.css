@@ -370,11 +370,16 @@ body.dark .switch::before{
     padding: 12px 60px;
 }
 
-.footer {
-    position: fixed;     
-    text-align: center;    
-    bottom: 0px; 
-    width: 100%;
+footer {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 
