@@ -279,7 +279,7 @@ body.dark .mode .sun-moon i.moon{
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    padding: 100px;
+    padding: 30px;
 }
 
 .flex-container > figure {
@@ -291,7 +291,7 @@ body.dark .mode .sun-moon i.moon{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding: 20px;
+  padding: 30px;
 }
 
 .about-container > div {
