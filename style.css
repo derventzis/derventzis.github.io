@@ -81,7 +81,18 @@ body.dark{
     background: var(--sidebar-color);
     transition: var(--tran-05);
     z-index: 100;  
+    animation: moveright 1s linear 1;
 }
+
+@keyframes moveright {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0) ;
+    }
+}
+
 .sidebar.close{
     width: 88px;
 }
