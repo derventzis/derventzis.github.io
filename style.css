@@ -92,9 +92,21 @@ body.dark{
         transform: translateX(0) ;
     }
 }
+
+@keyframes taadaa { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
 #rcorners1 {
     border-radius: 25px;
 }
+
 .sidebar.close{
     width: 88px;
 }
@@ -281,6 +293,7 @@ body.dark .mode .sun-moon i.moon{
 .container {
 	height: 100%;
 	margin: 0 auto;
+    animation: taadaa 2s linear 1;
 }
 
 .container > p {
@@ -319,7 +332,6 @@ body.dark .mode .sun-moon i.moon{
     width: 200px;
     margin: 20px;
     font-size: 20px;
-    
 }
 
 h3 {
