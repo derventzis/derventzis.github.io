@@ -20,6 +20,7 @@
     --logo-text: #594ED5;
     --my-color: #594ED5;
     --text-color2: #3A3B3C;
+    --text-box: #E0DCDC;
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -68,6 +69,7 @@ body.dark{
     --logo-text: #CCC;
     --my-color: #7D75C7;
     --text-color2:#E4E9F7;
+    --text-box: #282424;
 }
 
 /* ===== Sidebar ===== */
@@ -109,6 +111,7 @@ body.dark{
 #rcorners2 {
     border-radius: 25px;
     background: var(--sidebar-color);
+    box-shadow: 10px 10px var(--primary-color-light);
     padding: 20px; 
     width: fit-content;
     height: fit-content;  
