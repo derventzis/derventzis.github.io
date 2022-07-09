@@ -427,11 +427,8 @@ body.dark .switch::before{
 }
 
 .home .ftext:hover{
-    font-size: 16px;
-    font-weight: 400;
     color: var(--primary-color);
     transition: 1s;
-    padding: 10px 80px;
 }
 footer {
     display: block;
