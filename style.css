@@ -291,7 +291,7 @@ body.dark .mode .sun-moon i.moon{
 }
 
 .container {
-	height: 100%;
+	height: auto;
 	margin: 0 auto;
     animation: taadaa 2s linear 1;
 }
@@ -410,7 +410,12 @@ body.dark .switch::before{
     color: var(--text-color);
     padding: 12px 60px;
 }
-
+.home .ftext{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color2);
+    padding: 10px 80px;
+}
 footer {
     display: block;
 }
