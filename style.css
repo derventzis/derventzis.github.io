@@ -430,10 +430,10 @@ body.dark .switch::before{
     color: var(--primary-color);
     transition: 1s;
 }
+
 footer {
     display: block;
 }
-
 
 .sidebar.close ~ .home{
     left: 78px;
@@ -444,8 +444,6 @@ footer {
 body.dark .home .text{
     color: var(--text-color);
 }
-
-
 
 ::-webkit-scrollbar {
     width: 11px;
