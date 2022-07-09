@@ -92,7 +92,9 @@ body.dark{
         transform: translateX(0) ;
     }
 }
-
+#rcorners1 {
+    border-radius: 25px;
+}
 .sidebar.close{
     width: 88px;
 }
