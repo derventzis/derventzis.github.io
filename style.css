@@ -106,7 +106,13 @@ body.dark{
 #rcorners1 {
     border-radius: 25px;
 }
-
+#rcorners2 {
+    border-radius: 25px;
+    background: var(--sidebar-color);
+    padding: 20px; 
+    width: fit-content;
+    height: fit-content;  
+  }
 .sidebar.close{
     width: 88px;
 }
