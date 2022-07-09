@@ -330,7 +330,7 @@ body.dark .mode .sun-moon i.moon{
 }
 
 .about-container > div {
-  width: 350px;
+  width: 400px;
   margin: 50px;
   font-size: 20px;
   font-family: poppins, sans-serif;
@@ -423,6 +423,14 @@ body.dark .switch::before{
     font-size: 16px;
     font-weight: 400;
     color: var(--text-color2);
+    padding: 10px 80px;
+}
+
+.home .ftext:hover{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-color);
+    transition: 1s;
     padding: 10px 80px;
 }
 footer {
