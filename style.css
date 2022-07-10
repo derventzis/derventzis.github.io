@@ -562,6 +562,9 @@ figure.workspace p {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
+figure.workspace p span{
+    font-weight: bold;
+  }
 figure.workspace a {
   left: 0;
   right: 0;
