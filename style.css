@@ -22,6 +22,7 @@
     --my-color: #594ED5;
     --text-color2: #3A3B3C;
     --text-box: #E0DCDC;
+    --f-color:#0D1116;
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -71,6 +72,7 @@ body.dark{
     --my-color: #7D75C7;
     --text-color2:#E4E9F7;
     --text-box: #282424;
+    --f-color: #FFF;
 }
 
 /* ===== Sidebar ===== */
@@ -431,7 +433,7 @@ body.dark .switch::before{
 }
 
 .home .ftext:hover{
-    color: var(--primary-color);
+    color: var(--f-color);
     transition: 1s;
 }
 
