@@ -39,7 +39,6 @@ body{
 .name_style {
     font-family:'Lucida Handwriting', 'Lucida Handwriting Regular';
     font-size: 40px;
-
     color: var(--logo-text);
 }
 
@@ -332,6 +331,21 @@ body.dark .mode .sun-moon i.moon{
 
 .about-container > div {
   width: 400px;
+  margin: 50px;
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+  color: var(--text-color2);
+}
+
+.about-container2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.about-container2 > div {
+  width: fit-content;
   margin: 50px;
   font-size: 20px;
   font-family: poppins, sans-serif;
