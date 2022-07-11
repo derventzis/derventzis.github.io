@@ -326,14 +326,15 @@ body.dark .mode .sun-moon i.moon{
 }
 
 .about-container2 {
+  min-width: 400px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding: 50px;
+  padding: 30px;
 }
 
 .about-container2 > div {
-  width: fit-content;
+  width: 800px;
   margin: 50px;
   font-size: 20px;
   font-family: poppins, sans-serif;
