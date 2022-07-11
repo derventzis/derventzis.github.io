@@ -347,7 +347,7 @@ body.dark .mode .sun-moon i.moon{
 .about-container2 > div {
   width: fit-content;
   margin: 50px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: poppins, sans-serif;
   color: var(--text-color2);
 }
