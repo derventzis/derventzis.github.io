@@ -330,6 +330,7 @@ body.dark .mode .sun-moon i.moon{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  padding: 30px;
 }
 
 .about-container2 > div {
