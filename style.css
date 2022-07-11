@@ -326,7 +326,6 @@ body.dark .mode .sun-moon i.moon{
 }
 
 .about-container2 {
-  min-width: 400px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
