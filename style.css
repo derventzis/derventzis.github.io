@@ -37,7 +37,7 @@ body{
 }
 
 .name_style {
-    font-family: 'Lucida Handwriting Regular';
+    font-family: 'Lucida Handwriting Regular', sans-serif;
     font-size: 40px;
 
     color: var(--logo-text);
