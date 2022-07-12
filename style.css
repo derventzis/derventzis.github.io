@@ -434,7 +434,7 @@ body.dark .switch::before{
 
 .home .ftext:hover{
     color: var(--f-color);
-    transition: 1s;
+    font-weight: 500;
 }
 
 footer {
