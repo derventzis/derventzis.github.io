@@ -2,192 +2,192 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="logo3.png" type="image/x-icon">
-    
-    <!----======== CSS ======== -->
-    <link rel="stylesheet" href="style.css">
-    
-    <!----===== Boxicons CSS ===== -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" href="photos/logo3.png">
-    <title>Johnny D. - Portfolio</title> 
+    <title>Yannis Der - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <nav class="sidebar close">
-        <header>
-            <div class="image-text">
-                <p> <span class="name_style">JD</span></p>
-
-                <div class="text logo-text">
-                    <span class="name">Johnny D.</span>
-                    <span class="profession">UI/UX Designer</span>
+<body class="dark-mode bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="bg-gray-800 py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-3xl font-bold">DErVentzis</h1>
+            <nav>
+                <div class="md:hidden">
+                    <button id="nav-toggle" class="text-white focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
                 </div>
-            </div>
-
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
-
-        <div class="menu-bar">
-            <div class="menu">
-
-                <ul class="menu-links">
-                    <li class="nav-link">
-                        <a href="#Top">
-                            <i class='bx bx-home-alt icon' ></i>
-                            <span class="text nav-text">Home</span>
-                        </a>
-                    </li>
-
-
-                    <li class="nav-link">
-                        <a href="#AboutMe">
-                            <i class='bx bx-user icon' ></i>
-                            <span class="text nav-text">About Me</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#Education">
-                            <i class='bx bx-book-reader icon' ></i>
-                            <span class="text nav-text">Education</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#Work">
-                            <i class='bx bx-briefcase icon' ></i>
-                            <span class="text nav-text">Work</span>
-                        </a>
-                    </li>
-                    
+                <ul id="nav-menu" class="hidden md:flex space-x-4 text-center">
+                    <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="#about" class="hover:text-gray-400">About</a></li>
+                    <li><a href="#skills" class="hover:text-gray-400">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+                    <li><a href="#resume" class="hover:text-gray-400">Resume</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
                 </ul>
-            </div>
-
-            <div class="bottom-content">
-
-                <li class="nav-link">
-                    <a href="mailto:derventzisi@gmail.com">
-                        <i class='bx bxl-gmail icon' ></i>
-                        <span class="text nav-text">Gmail</span>
-                    </a>
-                </li>
-
-                <li class="nav-link">
-                    <a href="https://www.linkedin.com/in/iderventzis" target="_blank">
-                        <i class='bx bxl-linkedin icon' data-toggle="tooltip" data-placement="top" title="" ></i>
-                        <span class="text nav-text">Linked In</span>
-                    </a>
-                </li>
-
-                <li class="nav-link">
-                    <a href="https://github.com/JohnnyD3r" target="_blank">
-                        <i class='bx bxl-github icon'></i>
-                        <span class="text nav-text">GitHub</span>
-                    </a>
-                </li>
-
-                <li class="nav-link">
-                    <a href="https://www.instagram.com/yannisd._/" target="_blank">
-                        <i class='bx bxl-instagram-alt icon'></i>
-                        <span class="text nav-text">Instagram</span>
-                    </a>
-                </li>
-
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <span class="mode-text text">Light Mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
-                
-            </div>
+            </nav>
         </div>
-
-    </nav>
-
-    <section class="home">      
-        <div class="text">
-            
-            <h3 id="Top">
-                <p style="text-align: center">Hey! I'm           
-                <a class="home-name">Yannis Derventzis</a>
-                !
-                </p> 
-            </h3>   
-           
+        <div id="mobile-nav" class="hidden md:hidden">
+            <ul class="text-center space-y-4 mt-4">
+                <li><a href="#home" class="block hover:text-gray-400">Home</a></li>
+                <li><a href="#about" class="block hover:text-gray-400">About</a></li>
+                <li><a href="#skills" class="block hover:text-gray-400">Skills</a></li>
+                <li><a href="#projects" class="block hover:text-gray-400">Projects</a></li>
+                <li><a href="#resume" class="block hover:text-gray-400">Resume</a></li>
+                <li><a href="#contact" class="block hover:text-gray-400">Contact</a></li>
+            </ul>
         </div>
-        <div class="container">
-            <br>
-            <div class="text-style"><p id="AboutMe" style="text-align: center">About Me</p></div>
-            <div class="about-container">
-                <div><p id="rcorners2">I am Yannis Derventzis, a 20-year-old student of Computer Science & Telecommunications at the University of Thessaly in Lamia, Greece, since 2021. 
-                    My enthusiasm lies in technology, and I am dedicated to furthering my understanding in this domain.</p>
-                </div>
-                <img src="photos/YannisDerventzis2.png" id="rcorners1" style="width:350px">
-            </div>
-            <div class="about-container2">
-                <div><p id="rcorners2">As a university student, I prioritize my time outside of academics by playing guitar, reading, and listening to rock music. 
-                    Concurrently, I actively pursue new knowledge in programming and technology to stay informed about emerging trends and developments.
-                    </p>
-                </div>
-                <div><p id="rcorners2">
-                    I am passionate about learning new programming languages to adapt them to various contexts as needed. Over the past two years, 
-                    I have immersed myself in the realm of technology, actively honing my skills to tackle diverse challenges and ensure continual improvement in my work.
-                    </p>   
-                </div> 
-            </div>
-            <div class="text-style"><p id="Education" style="text-align: center">Education</p></div>
-            <div class="flex-container">
-                <figure class="workspace">
-                    <img src="photos/UTH-logo.png" width="200px" height="200px">
-                    <figcaption>
-                        <div><h2><span>UTH</span></h2></div>
-                        <div><p>Computer Science & Telecommu- nications <br><br>
-                    </figcaption>			
-                </figure>
-            </div>
-            <div class="text-style"><p id="Work" style="text-align: center">My Work</p></div>
-            <div class="flex-container">
-                <figure class="workspace">
-                    <img src="photos/logophotog.png" width="200px" height="200px">
-                    <figcaption>
-                        <div><h2>Photo<br>graphy <span>JD</span></h2></div>
-                        <div><p>This website is about my <span>hobby</span> as an amateur photo-<br>grapher.</p></div>
-                        <a href="https://jdphot0graphy.github.io/" target="_blank"></a>
-                    </figcaption>			
-                </figure>
-                <figure class="workspace">
-                    <img src="photos/Syzle-Logo-Full.png" width="200px" height="200px">
-                    <figcaption>
-                        <div><h2>MUSIC <span>SYZLE</span></h2></div>
-                        <div><p>Syzle is an <span>upcoming</span> music social media app. <span>More info soon...</span><br><br><span>Nov 2021-Present</span> </p></div>
-                        <a href="Syzle/music.html" target="_blank"></a>
-                    </figcaption>			
-                </figure>
-            </div>
-            <div class="text-style"><p style="text-align: center">My Experience</p></div>
-            <div class="flex-container">
-                <figure class="workspace">
-                    <img src="photos/logo_el.png" width="200px" height="200px">
-                    <figcaption>
-                        <div><h2><span>EYDAP</span></h2></div>
-                        <div><p>2-Month Student Employment <span>Jul-Sep 2022</span> <br><br>
-                            <span>IT Systems Support - Help Desk</span></p></div>
-                        <a href="Files/Derventzis_GR.pdf" target="_blank"></a>
-                    </figcaption>			
-                </figure>
-            </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center px-4" style="background-image: url('https://source.unsplash.com/random/1600x900?technology');">
+        <div class="text-center">
+            <h2 class="text-4xl md:text-6xl font-bold">Hello, my name is Yannis Derventzis</h2>
+            <p class="text-xl md:text-2xl mt-4">An Udergraduate Informatics & Telecommunications Student</p>
         </div>
-        <footer><p class="ftext" style="text-align: left">© 2022 Johnny D. All rights reserved.</p></footer>
     </section>
-    
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold">About Me</h2>
+            <p class="text-xl mt-4 max-w-3xl mx-auto">I'm Yannis Der, an university student with a passion for technology and innovation. I enjoy learning about new technologies and applying them to solve real-world problems. In my free time, I love to work on personal projects and enhance my skills.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold">Skills</h2>
+            <div class="flex flex-wrap justify-center mt-8">
+                <div class="m-4 p-6 bg-gray-800 rounded-lg shadow-lg w-40">
+                    <h3 class="text-xl font-semibold">HTML</h3>
+                </div>
+                <div class="m-4 p-6 bg-gray-800 rounded-lg shadow-lg w-40">
+                    <h3 class="text-xl font-semibold">CSS</h3>
+                </div>
+                <div class="m-4 p-6 bg-gray-800 rounded-lg shadow-lg w-40">
+                    <h3 class="text-xl font-semibold">JavaScript</h3>
+                </div>
+                <div class="m-4 p-6 bg-gray-800 rounded-lg shadow-lg w-40">
+                    <h3 class="text-xl font-semibold">TailwindCSS</h3>
+                </div>
+                <div class="m-4 p-6 bg-gray-800 rounded-lg shadow-lg w-40">
+                    <h3 class="text-xl font-semibold">React</h3>
+                </div>
+                <div class="m-4 p-6 bg-gray-800 rounded-lg shadow-lg w-40">
+                    <h3 class="text-xl font-semibold">Node.js</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-800 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold">Projects</h2>
+            <div class="flex flex-wrap justify-center mt-8">
+                <div class="max-w-sm m-4 bg-gray-700 rounded-lg shadow-lg overflow-hidden">
+                    <img src="photos/logophotog.png" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold">JD Photography</h3>
+                        <p class="mt-2">Description of the project goes here.</p>
+                    </div>
+                </div>
+                <div class="max-w-sm m-4 bg-gray-700 rounded-lg shadow-lg overflow-hidden">
+                    <img src="photos/Syzle-Logo-Full.png" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold">Syzle</h3>
+                        <p class="mt-2">Description of the project goes here.</p>
+                    </div>
+                </div>
+                <!--<div class="max-w-sm m-4 bg-gray-700 rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/random/400x300?project" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold">Project 3</h3>
+                        <p class="mt-2">Description of the project goes here.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold">Resume</h2>
+            <div class="mt-8">
+                <a href="path/to/resume.pdf" download class="inline-block bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded">
+                    Download Resume
+                </a>
+            </div>
+            <div class="mt-8 bg-gray-700 p-6 rounded-lg shadow-lg max-w-4xl mx-auto ">
+                <h3 class="text-2xl font-semibold">Experience</h3>
+                <div class="flex flex-wrap justify-center mt-8">
+                    <div class="max-w-sm m-4 bg-gray-900 rounded-lg shadow-lg overflow-hidden">
+                        <img src="photos/logo_el.png" alt="Work 1" class="object-fit w-full">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold">EYDAP</h3>
+                            <p class="mt-2">Description of the work goes here.</p>
+                        </div>
+                    </div>
+                    <div class="max-w-sm m-4 bg-gray-900 rounded-lg shadow-lg overflow-hidden">
+                        <img src="photos/logo_el.png" alt="Work 2" class="object-fit w-full">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold">EYDAP</h3>
+                            <p class="mt-2">Description of the work goes here.</p>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="text-2xl font-semibold mt-4">Education</h3>
+                <div class="flex flex-wrap justify-center mt-8">
+                    <div class="max-w-sm m-4 bg-gray-900 rounded-lg shadow-lg overflow-hidden">
+                        <img src="photos/UTH-logo.png" alt="Edu 1" class="object-fit">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold">University of Thessaly</h3>
+                            <p class="mt-2">Description of the edu goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold">Contact</h2>
+            <p class="text-xl mt-4 max-w-3xl mx-auto">Feel free to reach out to me via email at iderventzis@hotmail.com or connect with me on LinkedIn.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-4">
+        <div class="container mx-auto text-center">
+            <p class="text-xl">Connect with me on:</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://www.linkedin.com/in/iderventzis" target="_blank" class="text-gray-400 hover:text-white">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-1.007 0-1.732-.725-1.732-1.732 0-1.006.725-1.732 1.732-1.732 1.006 0 1.732.726 1.732 1.732 0 1.007-.726 1.732-1.732 1.732zm13.5 12.268h-3v-5.578c0-1.446-.518-2.432-1.815-2.432-.988 0-1.577.664-1.835 1.307-.095.229-.118.547-.118.865v5.838h-3v-11h3v1.507c.397-.614 1.108-1.493 2.696-1.493 1.968 0 3.451 1.29 3.451 4.062v6.924z"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/JohnnyD3r" target="_blank" class="text-gray-400 hover:text-white">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.627 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.6.113.793-.261.793-.577v-2.173c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.087-.744.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.774.418-1.305.76-1.604-2.665-.303-5.467-1.332-5.467-5.93 0-1.311.469-2.381 1.236-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.229.957-.266 1.982-.398 3.003-.403 1.021.005 2.047.137 3.006.403 2.291-1.551 3.297-1.229 3.297-1.229.656 1.653.244 2.873.12 3.176.77.839 1.235 1.909 1.235 3.22 0 4.609-2.807 5.623-5.479 5.921.43.37.815 1.1.815 2.216v3.286c0 .319.19.694.8.576 4.765-1.588 8.2-6.085 8.2-11.387 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="mailto:iderventzis@hotmail.com" class="text-gray-400 hover:text-white">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.014 3h-16.028c-1.1 0-2 .9-2 2l-.004 14c0 1.1.9 2 2 2h16.028c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2zm0 2v2l-8 5-8-5v-2h16zm-16.028 14v-9l6.924 4.362c.35.22.799.22 1.148 0l6.924-4.362v9h-16.996z"/>
+                    </svg>
+                </a>
+            </div>
+            <p class="mt-4">© 2023 Yannis Der. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 
 </body>
