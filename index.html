@@ -1,1 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DERVENTZIS - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <a href="#" class="logo"><span class="highlight">D</span><span class="highlight">E</span>R<span class="highlight">V</span>ENTZIS</a>  
+      <div class="nav-buttons">
+        <button class="mobile-menu-btn" aria-label="Toggle navigation menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav id="mainNav">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
+  </header>
+  
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content fade-in">
+      <h1>Thoughtful Interfaces & Functional Code</h1>
+      <p>Curious about code, design, and how things work. Enjoy building clean, functional projects — from simple tools to more polished apps. Always learning, always experimenting.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch <i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/JohnnyD3r" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/iderventzis" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/yand3r._/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:your.email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+  
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hi! I’m a Computer Science student who loves turning ideas into real, working software. I got into coding out of curiosity, and it quickly became something much more — a way to solve problems and build things that make a difference.</p>
+          <p>Right now, I’m learning a lot about machine learning, web development, and software engineering. I’ve also started diving into robotics through my thesis, which has been both challenging and exciting — it’s opened up a whole new side of tech for me.</p>         
+          <p>When I’m not coding, I’m probably reading about new technologies, experimenting with side projects, or sharing ideas with other developers. I really enjoy being part of the tech community and learning from the people around me.</p>              
+        </div>
+        <div class="about-image">
+          <img src="photos/Group 3.png" alt="Your Name">
+        </div>
+      </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Portfolio Website">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" aria-label="View code"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Portfolio Website</h3>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <p class="project-description">
+              A responsive personal portfolio website built with modern web technologies. Features smooth animations and a clean, minimalist design.
+            </p>
+            <div class="project-footer">
+              <span class="project-date">2024</span>
+            </div>
+          </div>
+        </div>
+    </section>
 
+    <!-- Work Experience Section -->
+    <section id="experience" class="fade-in">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="experience-timeline">
+        <!-- Eydap 2 -->
+        <div class="experience-item">
+          <div class="experience-date">
+            <span>Jul 2024 - Sep 2024</span>
+          </div>
+          <div class="experience-content">
+            <h3 class="experience-title">Help Desk Technician - Intern</h3>
+            <h4 class="experience-company">EYDAP</h4>
+            <p class="experience-description">
+              In my second internship at EYDAP, I expanded on my previous experience by taking on more complex technical tasks and contributing to larger support operations. I worked more independently in diagnosing hardware and software issues, managed asset tracking in the IT inventory system, and assisted in deploying and maintaining enterprise tools like Office 365 and MS Teams.
+            </p>
+            <div class="experience-tags">
+              <span class="experience-tag">Software</span>
+              <span class="experience-tag">Hardware</span>
+              <span class="experience-tag">System Setup</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Eydap 1 -->
+        <div class="experience-item">
+          <div class="experience-date">
+            <span>Jul 2022 - Sep 2022</span>
+          </div>
+          <div class="experience-content">
+            <h3 class="experience-title">Help Desk Technician - Intern</h3>
+            <h4 class="experience-company">EYDAP</h4>
+            <p class="experience-description">
+              During my internship at EYDAP, I gained hands-on experience troubleshooting hardware and software issues, responding to user inquiries, and resolving helpdesk tickets. I collaborated with a team of IT professionals, assisting with computer system setup and maintenance.
+            </p>
+            <div class="experience-tags">
+              <span class="experience-tag">IT Services</span>
+              <span class="experience-tag">Troubleshooting</span>
+              <span class="experience-tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-container">
+        <!-- Programming Languages -->
+        <div class="skill-category">
+          <h3 class="category-title"><i class="fas fa-code"></i> Programming</h3>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>Python</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>JavaScript</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>Java</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>C++</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Web Development -->
+        <div class="skill-category">
+          <h3 class="category-title"><i class="fas fa-globe"></i> Web Development</h3>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>HTML & CSS</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>React</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>Node.js</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>Flask</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Other Skills -->
+        <div class="skill-category">
+          <h3 class="category-title"><i class="fas fa-tools"></i> Other Skills</h3>
+          <ul class="skills-list">
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>Git & GitHub</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>Machine Learning</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>Database Design</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <span>UI/UX Design</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <a href="mailto:your.email@example.com">your.email@example.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Location</h3>
+              <p>Your City, Country</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-details">
+              <h3>GitHub</h3>
+              <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="contact-details">
+              <h3>LinkedIn</h3>
+              <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">DERVENTZIS</div>
+      <p>Code. Design. Curiosity.</p>
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>      
+      <div class="footer-social">
+        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="mailto:your.email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="copyright">&copy; 2025 DERVENTZIS. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
